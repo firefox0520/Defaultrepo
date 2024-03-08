@@ -8,7 +8,8 @@ public class test {
     }
 
     public static void generateICSFile() {
-        System.out.println("das ist ein Test");
+        System.out.println("das ist ein Test2");
+        System.out.println("hallo");
         try {
             FileWriter writer = new FileWriter("event.ics");
 

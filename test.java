@@ -8,12 +8,15 @@ public class test {
     }
 
     public static void generateICSFile() {
+        System.out.println("das ist ein Test");
         try {
             FileWriter writer = new FileWriter("event.ics");
 
             writer.write("BEGIN:VCALENDAR\n");
             writer.write("VERSION:2.0\n");
             writer.write("PRODID:-//Your Company//Your App//EN\n");
+
+
 
             writer.write("BEGIN:VEVENT\n");
             writer.write("UID:" + UUID.randomUUID() + "\n");
